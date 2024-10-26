@@ -4,7 +4,7 @@ import telebot
 
 load_dotenv()
 
-bot = telebot.TeleBot('7764563323:AAFIWwntdhVt0GI3QtRC0gcZLLwieBvTYws')
+bot = telebot.TeleBot(os.getenv('BOT_TOKEN'))
 
 user_login = {}
 user_password = {}
